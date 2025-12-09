@@ -1,0 +1,81 @@
+openapi: 3.0.4
+info:
+  title: Leet Speak
+  description: Leet Speak is a simple tool for encoding and decoding Leet Speak. It returns the encoded or decoded Leet Speak.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/leetspeak:
+    post:
+      summary: Encode Leet Speak
+      description: Leet Speak is a simple tool for encoding and decoding Leet Speak. It returns the encoded or decoded Leet Speak.
+      operationId: leetspeak
+      parameters: []
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  text: 7h!5 !5 4 5!mp13 p!3c3 0f 73x7
+                  mode: encode
+                  changedCharacters: 17
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                text:
+                  type: string
+                  description: The text to encode or decode in Leet Speak
+                  example: This is a simple piece of text
+                mode:
+                  type: string
+                  description: The mode to use (encode or decode)
+                  example: encode
+              required:
+              - text
+              - mode
+              example:
+                text: This is a simple piece of text
+                mode: encode
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
