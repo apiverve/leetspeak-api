@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Leet Speak
   description: >-
-    Leet Speak is a simple tool for encoding and decoding Leet Speak. It returns
-    the encoded or decoded Leet Speak.
+    Leet Speak translates plain text into leet speak or reverses obfuscated
+    strings back to standard words. Submit any string with an encode or decode
+    mode to receive the converted text and a count of changed characters.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/leetspeak:
     post:
-      summary: Encode Leet Speak
+      summary: Leet Speak
       description: >-
         Leet Speak is a simple tool for encoding and decoding Leet Speak. It
         returns the encoded or decoded Leet Speak.
