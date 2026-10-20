@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/leetspeak",
-  "version": "1.2.0",
-  "description": "Leet Speak is a simple tool for encoding and decoding Leet Speak. It returns the encoded or decoded Leet Speak.",
+  "version": "1.2.2",
+  "description": "Leet Speak translates plain text into leet speak or reverses obfuscated strings back to standard words. Submit any string with an encode or decode mode to receive the converted text and a count of changed characters.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "leet speak", "leet speak api", "leet speak tool", "leet speak software", "leet speak service"
+    "leet speak api", "leetspeak converter", "convert text to leet", "decode leet speak", "leet speak translator"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/leetspeak-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/leetspeak?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/leetspeak?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
