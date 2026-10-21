@@ -1,7 +1,7 @@
 {
     "name": "apiverve/leetspeak",
-    "description": "Leet Speak is a simple tool for encoding and decoding Leet Speak. It returns the encoded or decoded Leet Speak.",
-    "version": "1.2.0",
+    "description": "Leet Speak translates plain text into leet speak or reverses obfuscated strings back to standard words. Submit any string with an encode or decode mode to receive the converted text and a count of changed characters.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "leetspeak",
-        "leet speak",
         "leet speak api",
-        "leet speak tool",
-        "leet speak software",
-        "leet speak service"
+        "leetspeak converter",
+        "convert text to leet",
+        "decode leet speak",
+        "leet speak translator"
     ],
-    "homepage": "https://apiverve.com/marketplace/leetspeak?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/leetspeak?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/leetspeak",

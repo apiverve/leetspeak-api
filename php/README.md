@@ -1,6 +1,6 @@
 # Leet Speak API - PHP Package
 
-Leet Speak is a simple tool for encoding and decoding Leet Speak. It returns the encoded or decoded Leet Speak.
+Leet Speak translates plain text into leet speak or reverses obfuscated strings back to standard words. Submit any string with an encode or decode mode to receive the converted text and a count of changed characters.
 
 ## Installation
 
@@ -86,11 +86,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/leetspeak?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/leetspeak?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/leetspeak?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/leetspeak?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/leetspeak?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/leetspeak?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
