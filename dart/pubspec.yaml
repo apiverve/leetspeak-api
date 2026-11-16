@@ -1,6 +1,6 @@
 name: apiverve_leetspeak
 description: "Leet Speak translates plain text into leet speak or reverses obfuscated strings back to standard words. Submit any string with an encode or decode mode to receive the converted text and a count of changed characters."
-version: 1.2.5
+version: 1.2.6
 homepage: https://apiverve.com/marketplace/leetspeak?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/leetspeak-api/tree/main/dart
 
